@@ -55,18 +55,6 @@ The system works with a modified Kaggle dataset containing 10,000 books with the
 | Num_Ratings | Number of ratings received |
 | URL | Link to book page |
 
-## 🚀 Getting Started
-
-### Prerequisites
-- JDK 17 or higher
-- IDE (IntelliJ IDEA recommended)
-
-### Installation
-1. Clone this repository
-2. Add OpenCSV dependency:
-   - In IntelliJ: Right-click project → Open Module Settings → Libraries → + → From Maven → `com.opencsv:opencsv:5.9`
-3. Place the dataset file in your resources directory
-
 ### Example Usage
 
 ```java

@@ -2,20 +2,20 @@
 
 > A Java application for book enthusiasts that recommends and discovers books based on machine learning principles
 
-## 🔍 Project Description
+## Project Description
 
 This application was developed as part of the Modern Java Technologies course at FMI. It implements a book recommendation engine that analyzes a dataset of 10,000 top-rated books to suggest similar titles based on genre overlap and textual similarity.
 
 By applying fundamental machine learning approaches, the system can find books that match a user's preferences and provide intelligent search functionality.
 
-## 💡 Core Algorithms
+## Core Algorithms
 
 The recommendation system is built on two key algorithms:
 
 - **TF-IDF (Term Frequency-Inverse Document Frequency)**: Evaluates the importance of words in book descriptions
 - **Overlap Coefficient**: Measures similarity between sets of genres
 
-## ⚙️ Key Components
+## Key Components
 
 The project consists of several modules:
 
@@ -33,7 +33,7 @@ The project consists of several modules:
 - Genre-based filtering (with ALL/ANY matching)
 - Keyword discovery in titles and descriptions
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - Java 17
 - OpenCSV library
@@ -41,7 +41,7 @@ The project consists of several modules:
 - Java Collections Framework
 - Java Stream API
 
-## 📊 Input Dataset
+## Input Dataset
 
 The system works with a modified Kaggle dataset containing 10,000 books with the following attributes:
 
@@ -77,7 +77,7 @@ BookFinderAPI finder = new BookFinder(library);
 List<Book> fantasyBooks = finder.searchByGenres(Set.of("Fantasy"), MatchOption.MATCH_ANY);
 ```
 
-## 🎓 Academic Context
+## Academic Context
 
 This project demonstrates practical application of:
 - Object-oriented design principles
